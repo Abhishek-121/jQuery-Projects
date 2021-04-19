@@ -1,0 +1,65 @@
+*{
+    margin: 4px;
+    padding: 0;
+    /* background-color: rgb(205, 236, 236) */
+}
+.container{
+    box-sizing:border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: lightsalmon ;
+    width: 760px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+#first-number,#second-number{
+    background-color: rgb(202, 162, 202);
+    display:flex;
+    margin: 3px;
+    align-items:center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    width: 125px;
+    height: 125px;
+    box-sizing: border-box;
+    border: 1px solid rgb(66, 71, 66);
+}
+
+#operator, #equal{
+    font-weight: bold;
+    font-size: 40px;
+    padding: 5px;
+    margin: 7px;
+}
+
+#operation{
+    width: 40px;
+    height: 30px;
+    font-size: 2vh;
+}
+
+input{
+    border: solid 2px cyan;
+    width: 150px;
+    height: 40px;
+    padding-left: 25px;
+    font-size: 3vh;
+}
+
+button{
+    width: 100px;
+    height: 46px;
+    margin: 5px;
+    background: red;
+    color: white;
+    border: 1px solid lightgrey;
+    font-size: 2vh;
+}
+
+#check{
+    pointer: cursor;
+}
+
